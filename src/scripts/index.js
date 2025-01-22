@@ -31,6 +31,7 @@ document.getElementById('input-search').addEventListener('keyup', (e) => {
 async function getUserProfile(userName) {
 
     const userResponse = await getUser(userName)
+    console.log(userResponse)
 
     if (userResponse.message === "Not Found") {
         screen.renderNotFound()
