@@ -12,13 +12,21 @@ const screen = {
                                           </div>
                                       </div>`
         let repositoriesItens = ''
-        user.repositories.forEach(repo => repositoriesItens += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`)
-
+        user.repositories.forEach(repo => repositoriesItens += `<li>
+                                                                    <a href="${repo.html_url}" target="_blank">${repo.name}
+                                                                        <div class="repositories-data">
+                                                                            <p>🍴 ${repo.forks}</p>
+                                                                            <p>⭐ ${repo.stargazers_count}</p>
+                                                                            <p>👀 ${repo.watchers}</p>
+                                                                            <p>👩‍💻 ${repo.language}</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>`)
         let eventItens = ''
         user.eventList.forEach(eventList => {
-            console.log(eventList)
             if (eventList.type === "CreateEvent") eventItens += "<li>“Sem mensagem de commit”</li>"
-            else eventItens += `<li><span class="repoName">${eventList.repo.name}</span> - ${eventList.type}</li>`
+            if (eventList.type === "PushEvent") eventItens += `<li><span class="repoName">${eventList.repo.name}</span> - ${eventList.type}</li>`
+            else return
         })
 
         if(user.repositories.length > 0) {

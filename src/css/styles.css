@@ -149,6 +149,19 @@ main {
   color: #fff
 }
 
+.container .profile-data .repositories .repositories-data {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.container .profile-data .repositories .repositories-data p {
+  background-color: #6959cc;
+  color: #fff;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 3px;
+}
 
 /* EventList */
 
