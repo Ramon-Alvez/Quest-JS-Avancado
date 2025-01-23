@@ -1,39 +1,55 @@
-# DevQuest| Projeto Fetch - GitHub API 
+# | 🧙‍♂️ Quest 🏹🐲 | JavaScript Avançado
 
-## Sobre o Projeto 🔭
+## Sobre o Desafio 🔭
 
-Neste módulo do curso DevQuest foi apresentado como criar um projeto que consome a API do GitHub usando o fetch para buscar informações dos usuários e mostrar na tela, os objetivos foram:
+Solicitação 1
 
-- Por em prática os conhecimentos de Fetch e APIs;
-- Aprender como funciona um projeto real, suas estruturas e a como subir isso no github de forma correta;
+O seu gerente de projetos veio com uma nova solicitação para ser acrescentada no projeto que busca as informações do usuário do GitHub.
 
-Tanto o modelo quanto as demais estruturas foram fornecidas e explicadas pelos gêmeos nesse módulo do curso
+- Agora além de trazer:
+    - Imagem do usuário
+    - Nome completo do usuário
+    - Login do usuário
+    - Bio do usuário
+- Você precisa mostrar também:
+    - Número de seguidores do usuário
+    - Número de pessoas que o usuário está seguindo
+
+Solicitação 2
+
+O seu gerente de projetos veio com uma nova solicitação para ser acrescentada no projeto. Agora ele quer apresentar as informações dos últimos eventos do usuário no GitHub.
+
+A solicitação é a seguinte:
+
+- Você deve apresentar na tela uma lista com até 10 últimos eventos do usuário no GitHub. Os eventos que serão apresentados são de dois tipos: CreateEvent e PushEvent apenas.
+- Para buscar os eventos você pode usar esse endpoint do GitHub: (https://api.github.com/users/_coloque-onome-do-usuario-aqui_/events, por exemplo https://api.github.com/users/devemdobro/events): Para cada atividade do tipo PushEvent você deve mostrar o nome do repositório e a mensagem de commit do Evento. Exemplo:
+
+![Exemplo](./src/readme/exemplo.png)
+
+- Se for uma atividade do tipo CreateEvent você deve mostrar apenas a mensagem “Sem mensagem de commit”
+
+Solicitação 3
+
+O seu gerente de projetos veio com com uma nova solicitação para ser acrescentada no projeto que busca as informações dos repositórios do usuário do GitHub.
+
+- Agora além de trazer:
+    - Nome do repositório
+    - Link do repositório
+- Você precisa mostrar também:
+    - Quantidade de forks do repositório
+    - Quantidade de estrelas do repositório
+    - Quantidade de watchers do repositório
+    - Mostrar a linguagem de programação do repositório
+
 
 ### Screenshots 🎴
 
-#### Desktop
-![Destop Preview](./src/readme/preview.gif)
+#### Solução
+![](./src/readme/página.png)
 
-#### Mobile
-![Mobile Preview](./src/readme/mobile-preview.gif)
-
-### Links
-
-Link da página: [Site](https://ramon-alvez.github.io/DevQuest-projeto-inicial-fetch-github-api/)
-
-## O que aprendi 📚
-
-Nesse módulo explicativo de "criando um projeto real com fetch" eu pude ver como é criado e organizado um projeto, aprendi mais sobre estruturação de pastas, requisições de exportação e importação e também sobre como funcionam os links embedados no github (links absolutos e relativos). 
+Link da página: [Site](https://ramon-alvez.github.io/Quest-JS-Avancado/)
 
 ## Autor 🧙‍♂️
 
-### Aluno (Eu) 😃
-
 - GitHub: [Ramon Alvez](https://github.com/Ramon-Alvez/Frontend-Mentor-HTML-CSS-Intermediate-ChatApp-CSS-illustration)
 - LinkedIn: [@Ramon Alvez](https://github.com/Ramon-Alvez/Frontend-Mentor-HTML-CSS-Intermediate-ChatApp-CSS-illustration)
-
-### Professores 🧙‍♂️
-
-- LinkedIn Curso: [@Dev em Dobro](https://www.linkedin.com/company/dev-em-dobro/posts/?feedView=all)
-- LinkedIn Roberto: [@Roberto Dias](https://www.linkedin.com/in/robertorhd/)
-- LinkedIn Ricardo: [@Ricardo Dias](https://www.linkedin.com/in/ricardohdias/)
