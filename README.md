@@ -51,5 +51,5 @@ Link da página: [Site](https://ramon-alvez.github.io/Quest-JS-Avancado/)
 
 ## Autor 🧙‍♂️
 
-- GitHub: [Ramon Alvez](https://github.com/Ramon-Alvez/Frontend-Mentor-HTML-CSS-Intermediate-ChatApp-CSS-illustration)
-- LinkedIn: [@Ramon Alvez](https://github.com/Ramon-Alvez/Frontend-Mentor-HTML-CSS-Intermediate-ChatApp-CSS-illustration)
+- GitHub: [Ramon Alvez](https://github.com/Ramon-Alvez)
+- LinkedIn: [@Ramon Alvez](www.linkedin.com/in/ramon-alvez)
